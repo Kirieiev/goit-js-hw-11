@@ -59,10 +59,6 @@ function handleSearch(event) {
     .catch(onFetchError);
 }
 
-fetchImage();
-
-createMarkup();
-
 function onFetchError() {
   iziToast.error({
     title: 'Error',
